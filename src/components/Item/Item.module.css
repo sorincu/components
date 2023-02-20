@@ -1,0 +1,16 @@
+.container {
+  background-color: var(--bg-secondary);
+  border-radius: 0.5rem;
+  padding: 0 12px;
+  border: 2px solid var(--bg-primary);
+}
+
+.container:hover {
+  cursor: pointer;
+  color: var(--text-primary);
+  background-color: var(--bg-secondary-hover);
+}
+
+.active {
+  border: 2px solid var(--text-secondary);
+}
